@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap");
+
+body {
+  font-family: 'Inter', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+.container {
+max-width: 1500px;
+margin: 0 auto;
+}
+
+.hero {
+    padding-top: 100px;
+ background-image:url(./img/car.png) ;   
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: contain;
+ width: 100%;
+ height: 500px;
+}
+
+input::placeholder {
+font-weight: 500;
+font-size: 18px;
+color: #555;
+padding-left: 40px;
+}
